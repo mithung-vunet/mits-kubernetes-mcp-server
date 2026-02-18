@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+target/
+*.class
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+*.key
+
+# IDE and OS
+.DS_Store
+.idea/
+*.iml
+*.tsbuildinfo
+*.swp
+*~
+
+# Java/Maven
+*.jar
+!java-server/kubernetes-mcp-server-*.jar
+
+# Local configuration (keep template, ignore actual config with credentials)
+.vscode/mcp.json

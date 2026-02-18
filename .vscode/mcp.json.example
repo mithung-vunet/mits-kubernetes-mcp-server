@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "kubernetes": {
+      "command": "ssh",
+      "args": ["user@jumpserver", "java", "-jar", "~/mcp/kubernetes-mcp-server-1.0.0.jar"]
+    }
+  }
+}
